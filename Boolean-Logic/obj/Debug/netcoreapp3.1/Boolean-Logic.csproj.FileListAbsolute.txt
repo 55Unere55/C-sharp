@@ -1,0 +1,13 @@
+C:\Users\tamar\source\repos\Boolean-Logic\bin\Debug\netcoreapp3.1\Boolean-Logic.exe
+C:\Users\tamar\source\repos\Boolean-Logic\bin\Debug\netcoreapp3.1\Boolean-Logic.deps.json
+C:\Users\tamar\source\repos\Boolean-Logic\bin\Debug\netcoreapp3.1\Boolean-Logic.runtimeconfig.json
+C:\Users\tamar\source\repos\Boolean-Logic\bin\Debug\netcoreapp3.1\Boolean-Logic.runtimeconfig.dev.json
+C:\Users\tamar\source\repos\Boolean-Logic\bin\Debug\netcoreapp3.1\Boolean-Logic.dll
+C:\Users\tamar\source\repos\Boolean-Logic\bin\Debug\netcoreapp3.1\Boolean-Logic.pdb
+C:\Users\tamar\source\repos\Boolean-Logic\obj\Debug\netcoreapp3.1\Boolean-Logic.csproj.AssemblyReference.cache
+C:\Users\tamar\source\repos\Boolean-Logic\obj\Debug\netcoreapp3.1\Boolean-Logic.AssemblyInfoInputs.cache
+C:\Users\tamar\source\repos\Boolean-Logic\obj\Debug\netcoreapp3.1\Boolean-Logic.AssemblyInfo.cs
+C:\Users\tamar\source\repos\Boolean-Logic\obj\Debug\netcoreapp3.1\Boolean-Logic.csproj.CoreCompileInputs.cache
+C:\Users\tamar\source\repos\Boolean-Logic\obj\Debug\netcoreapp3.1\Boolean-Logic.dll
+C:\Users\tamar\source\repos\Boolean-Logic\obj\Debug\netcoreapp3.1\Boolean-Logic.pdb
+C:\Users\tamar\source\repos\Boolean-Logic\obj\Debug\netcoreapp3.1\Boolean-Logic.genruntimeconfig.cache

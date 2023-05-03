@@ -1,0 +1,13 @@
+C:\Users\tamar\source\repos\Math and Income Comparison\bin\Debug\netcoreapp3.1\Math and Income Comparison.exe
+C:\Users\tamar\source\repos\Math and Income Comparison\bin\Debug\netcoreapp3.1\Math and Income Comparison.deps.json
+C:\Users\tamar\source\repos\Math and Income Comparison\bin\Debug\netcoreapp3.1\Math and Income Comparison.runtimeconfig.json
+C:\Users\tamar\source\repos\Math and Income Comparison\bin\Debug\netcoreapp3.1\Math and Income Comparison.runtimeconfig.dev.json
+C:\Users\tamar\source\repos\Math and Income Comparison\bin\Debug\netcoreapp3.1\Math and Income Comparison.dll
+C:\Users\tamar\source\repos\Math and Income Comparison\bin\Debug\netcoreapp3.1\Math and Income Comparison.pdb
+C:\Users\tamar\source\repos\Math and Income Comparison\obj\Debug\netcoreapp3.1\Math and Income Comparison.csproj.AssemblyReference.cache
+C:\Users\tamar\source\repos\Math and Income Comparison\obj\Debug\netcoreapp3.1\Math and Income Comparison.AssemblyInfoInputs.cache
+C:\Users\tamar\source\repos\Math and Income Comparison\obj\Debug\netcoreapp3.1\Math and Income Comparison.AssemblyInfo.cs
+C:\Users\tamar\source\repos\Math and Income Comparison\obj\Debug\netcoreapp3.1\Math and Income Comparison.csproj.CoreCompileInputs.cache
+C:\Users\tamar\source\repos\Math and Income Comparison\obj\Debug\netcoreapp3.1\Math and Income Comparison.dll
+C:\Users\tamar\source\repos\Math and Income Comparison\obj\Debug\netcoreapp3.1\Math and Income Comparison.pdb
+C:\Users\tamar\source\repos\Math and Income Comparison\obj\Debug\netcoreapp3.1\Math and Income Comparison.genruntimeconfig.cache
