@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tamar\\source\\repos\\Boolean-Logic\\Boolean-Logic.csproj": {}
+    "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Boolean-Logic\\Boolean-Logic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tamar\\source\\repos\\Boolean-Logic\\Boolean-Logic.csproj": {
+    "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Boolean-Logic\\Boolean-Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tamar\\source\\repos\\Boolean-Logic\\Boolean-Logic.csproj",
+        "projectUniqueName": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Boolean-Logic\\Boolean-Logic.csproj",
         "projectName": "Boolean-Logic",
-        "projectPath": "C:\\Users\\tamar\\source\\repos\\Boolean-Logic\\Boolean-Logic.csproj",
+        "projectPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Boolean-Logic\\Boolean-Logic.csproj",
         "packagesPath": "C:\\Users\\tamar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tamar\\source\\repos\\Boolean-Logic\\obj\\",
+        "outputPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Boolean-Logic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

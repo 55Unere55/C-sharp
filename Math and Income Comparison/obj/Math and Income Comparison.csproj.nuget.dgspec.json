@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tamar\\source\\repos\\Math and Income Comparison\\Math and Income Comparison.csproj": {}
+    "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Math and Income Comparison\\Math and Income Comparison.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tamar\\source\\repos\\Math and Income Comparison\\Math and Income Comparison.csproj": {
+    "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Math and Income Comparison\\Math and Income Comparison.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tamar\\source\\repos\\Math and Income Comparison\\Math and Income Comparison.csproj",
+        "projectUniqueName": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Math and Income Comparison\\Math and Income Comparison.csproj",
         "projectName": "Math and Income Comparison",
-        "projectPath": "C:\\Users\\tamar\\source\\repos\\Math and Income Comparison\\Math and Income Comparison.csproj",
+        "projectPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Math and Income Comparison\\Math and Income Comparison.csproj",
         "packagesPath": "C:\\Users\\tamar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tamar\\source\\repos\\Math and Income Comparison\\obj\\",
+        "outputPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Math and Income Comparison\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
