@@ -1,0 +1,13 @@
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\ShippingQuote\bin\Debug\netcoreapp3.1\ShippingQuote.exe
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\ShippingQuote\bin\Debug\netcoreapp3.1\ShippingQuote.deps.json
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\ShippingQuote\bin\Debug\netcoreapp3.1\ShippingQuote.runtimeconfig.json
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\ShippingQuote\bin\Debug\netcoreapp3.1\ShippingQuote.runtimeconfig.dev.json
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\ShippingQuote\bin\Debug\netcoreapp3.1\ShippingQuote.dll
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\ShippingQuote\bin\Debug\netcoreapp3.1\ShippingQuote.pdb
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.csproj.AssemblyReference.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.AssemblyInfoInputs.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.AssemblyInfo.cs
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.csproj.CoreCompileInputs.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.dll
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.pdb
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\ShippingQuote\obj\Debug\netcoreapp3.1\ShippingQuote.genruntimeconfig.cache
