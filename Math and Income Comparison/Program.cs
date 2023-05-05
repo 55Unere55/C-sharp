@@ -12,13 +12,13 @@ namespace Math_and_Income_Comparison
             string hourlyRate1 = Console.ReadLine();
             Console.WriteLine("Hours worked per Week?");
             string hours1 = Console.ReadLine();
-            int salary1 = Convert.ToInt32(hours1) * 52;
+            int salary1 = Convert.ToInt32(hourlyRate1) * Convert.ToInt32(hours1) * 52;
             Console.WriteLine("Person2");
             Console.WriteLine("Hourly Rate?");
             string hourlyRate2 = Console.ReadLine();
             Console.WriteLine("Hours worked per Week?");
             string hours2 = Console.ReadLine();
-            int salary2 = Convert.ToInt32(hours2) * 52;
+            int salary2 = Convert.ToInt32(hourlyRate2) * Convert.ToInt32(hours2) * 52;
             Console.WriteLine("Annual Salary Person1:");
             Console.WriteLine(salary1);
             Console.WriteLine("Annual Salaru Person2");
