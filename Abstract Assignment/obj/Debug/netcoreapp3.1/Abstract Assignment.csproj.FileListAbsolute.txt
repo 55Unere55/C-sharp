@@ -1,0 +1,13 @@
+C:\Users\tamar\source\repos\Abstract Assignment\obj\Debug\netcoreapp3.1\Abstract Assignment.csproj.AssemblyReference.cache
+C:\Users\tamar\source\repos\Abstract Assignment\obj\Debug\netcoreapp3.1\Abstract Assignment.AssemblyInfoInputs.cache
+C:\Users\tamar\source\repos\Abstract Assignment\obj\Debug\netcoreapp3.1\Abstract Assignment.AssemblyInfo.cs
+C:\Users\tamar\source\repos\Abstract Assignment\obj\Debug\netcoreapp3.1\Abstract Assignment.csproj.CoreCompileInputs.cache
+C:\Users\tamar\source\repos\Abstract Assignment\bin\Debug\netcoreapp3.1\Abstract Assignment.exe
+C:\Users\tamar\source\repos\Abstract Assignment\bin\Debug\netcoreapp3.1\Abstract Assignment.deps.json
+C:\Users\tamar\source\repos\Abstract Assignment\bin\Debug\netcoreapp3.1\Abstract Assignment.runtimeconfig.json
+C:\Users\tamar\source\repos\Abstract Assignment\bin\Debug\netcoreapp3.1\Abstract Assignment.runtimeconfig.dev.json
+C:\Users\tamar\source\repos\Abstract Assignment\bin\Debug\netcoreapp3.1\Abstract Assignment.dll
+C:\Users\tamar\source\repos\Abstract Assignment\bin\Debug\netcoreapp3.1\Abstract Assignment.pdb
+C:\Users\tamar\source\repos\Abstract Assignment\obj\Debug\netcoreapp3.1\Abstract Assignment.dll
+C:\Users\tamar\source\repos\Abstract Assignment\obj\Debug\netcoreapp3.1\Abstract Assignment.pdb
+C:\Users\tamar\source\repos\Abstract Assignment\obj\Debug\netcoreapp3.1\Abstract Assignment.genruntimeconfig.cache
