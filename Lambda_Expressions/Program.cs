@@ -28,7 +28,7 @@ namespace Lambda_Expressions
             {
                 if (employee.firstName == "Joe")
                 {
-                    joes.Add(employee);
+                    Joes.Add(employee);
                 }
             }
             //same again but with lambda expression

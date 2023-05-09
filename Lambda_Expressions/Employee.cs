@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Lambda_Expressions
 {
-    class Employees
-    {
+    
+    
         public class Employee
         {
             public int Id { get; set; }
@@ -13,4 +13,4 @@ namespace Lambda_Expressions
             public string lastName { get; set; }
         }
     }
-}
+
