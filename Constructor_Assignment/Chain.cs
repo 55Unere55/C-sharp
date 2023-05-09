@@ -12,15 +12,15 @@ namespace Constructor_Assignment
             Console.WriteLine(num1 + " and your Name is: " + Name);
         }
         public Chain(string name1) : this(42, name1)
-    }
-        Console.WriteLine(num1 + "you favourite number is: " + Num);
+        { 
+        Console.WriteLine(name1 + "you favourite number is: " + Num);
         }
         public Chain(float num, string name)
-        } 
+        { 
             Name = name;
             Num = num;
         }
-        string Name { get; set };
-        float Num { get; set };
+        string Name { get; set; }
+        float Num { get; set; }
 }
 }
