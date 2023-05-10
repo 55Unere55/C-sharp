@@ -2,3 +2,7 @@ C:\Users\tamar\source\repos\Variable_Assignment\obj\Debug\netcoreapp3.1\Variable
 C:\Users\tamar\source\repos\Variable_Assignment\obj\Debug\netcoreapp3.1\Variable_Assignment.AssemblyInfoInputs.cache
 C:\Users\tamar\source\repos\Variable_Assignment\obj\Debug\netcoreapp3.1\Variable_Assignment.AssemblyInfo.cs
 C:\Users\tamar\source\repos\Variable_Assignment\obj\Debug\netcoreapp3.1\Variable_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Variable_Assignment\obj\Debug\netcoreapp3.1\Variable_Assignment.csproj.AssemblyReference.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Variable_Assignment\obj\Debug\netcoreapp3.1\Variable_Assignment.AssemblyInfoInputs.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Variable_Assignment\obj\Debug\netcoreapp3.1\Variable_Assignment.AssemblyInfo.cs
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Variable_Assignment\obj\Debug\netcoreapp3.1\Variable_Assignment.csproj.CoreCompileInputs.cache
