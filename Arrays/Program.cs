@@ -13,7 +13,8 @@ namespace Arrays
             try
             {
                 int index = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("The value at the index you entered is: " + array1[index]); }
+                Console.WriteLine("The value at the index you entered is: " + array1[index]);
+            }
 
 
 
@@ -21,15 +22,11 @@ namespace Arrays
             {
                 Console.WriteLine("You entered a wrong number, Please enter a number between 0 and 4.");
 
-
-                {
-                    int index = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("The value at the index you entered is: " + array1[index]);
-                    Console.ReadLine();
+            }
 
                     string[] stringArray = new string[6];
                     string[] weekDays = new string[] { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };
-
+                    Console.WriteLine("Please enter a number: ");
                     try
                     {
                         int index1 = Convert.ToInt32(Console.ReadLine());
@@ -39,14 +36,12 @@ namespace Arrays
                     catch
                     {
                         Console.WriteLine("You entered a wrong number, Please enter a number between 0 and 5.");
-                        int index1 = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("The value at the index you entered is: " + weekDays[index1]);
-                        Console.ReadLine();
+                      
                     }
 
 
                     }
                 }
             }
-    }
-}
+    
+
