@@ -1,0 +1,13 @@
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Enums\bin\Debug\netcoreapp3.1\Enums.exe
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Enums\bin\Debug\netcoreapp3.1\Enums.deps.json
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Enums\bin\Debug\netcoreapp3.1\Enums.runtimeconfig.json
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Enums\bin\Debug\netcoreapp3.1\Enums.runtimeconfig.dev.json
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Enums\bin\Debug\netcoreapp3.1\Enums.dll
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Enums\bin\Debug\netcoreapp3.1\Enums.pdb
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Enums\obj\Debug\netcoreapp3.1\Enums.csproj.AssemblyReference.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Enums\obj\Debug\netcoreapp3.1\Enums.AssemblyInfoInputs.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Enums\obj\Debug\netcoreapp3.1\Enums.AssemblyInfo.cs
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Enums\obj\Debug\netcoreapp3.1\Enums.csproj.CoreCompileInputs.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Enums\obj\Debug\netcoreapp3.1\Enums.dll
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Enums\obj\Debug\netcoreapp3.1\Enums.pdb
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Enums\obj\Debug\netcoreapp3.1\Enums.genruntimeconfig.cache

@@ -19,7 +19,7 @@ namespace Enums
         November,
         December,
     }
-    static void Main(string[] args);
+    static void Main(string[] args)
     {
 
             bool isValid = false;
