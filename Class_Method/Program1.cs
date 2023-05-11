@@ -13,6 +13,7 @@ namespace Class_Method
             int pro2 = 2;
             int product = pro * pro2;
             Console.WriteLine("Your number multiplied by two is " + product);
+            Console.ReadLine();
         }
 
     }

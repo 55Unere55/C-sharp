@@ -4,8 +4,6 @@ namespace Enums
 {
     class Program
     {
-
-    }
     public enum MonthsOfTheYear
     {
         January,
@@ -22,7 +20,7 @@ namespace Enums
         December,
     }
     static void Main(string[] args);
-}
+    {
 
             bool isValid = false;
             while(!isValid)
@@ -30,19 +28,20 @@ namespace Enums
                 try
                 {
                     Console.WriteLine("Enter the current Month of the Year");
-                    string month = Console.ReadLine();
+                    string monthInput = Console.ReadLine();
                     MonthsOfTheYear month = (MonthsOfTheYear)Enum.Parse(typeof(MonthsOfTheYear), monthInput);
-                    Console.WriteLine("Have a nive " + month);
+                    Console.WriteLine("Have a nice " + month);
                     Console.ReadLine();
                     isValid = true;
                 }
-                { 
-                catch (ArgumentException execute) {
+                catch (ArgumentException execute) 
+               {
                 
                 Console.WriteLine("Please enter an actual Month of the Year");
             }  
-            }
-        }
-        }
-    }
+         }
+      }
+   }
+ }
+
 
