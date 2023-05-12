@@ -11,8 +11,7 @@ namespace Class_Method
             Console.WriteLine("Please enter any number: ");
             int pro = Convert.ToInt32(Console.ReadLine());
             int pro2 = 2;
-            int product = pro * pro2;
-            Console.WriteLine("Your number multiplied by two is " + product);
+            Console.WriteLine("Your number multiplied by two is " + pro * pro2);
             Console.ReadLine();
         }
 
