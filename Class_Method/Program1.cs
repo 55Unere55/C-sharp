@@ -6,12 +6,13 @@ namespace Class_Method
 {
     class Program1
     {
-        void MathOps(int product)
+        void MathOps(int prct)
         {
             Console.WriteLine("Please enter any number: ");
             int pro = Convert.ToInt32(Console.ReadLine());
             int pro2 = 2;
-            Console.WriteLine("Your number multiplied by two is " + pro * pro2);
+            int product = pro * pro2;
+            Console.WriteLine("Your number multiplied by two is " + product);
             Console.ReadLine();
         }
 
