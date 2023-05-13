@@ -1,12 +1,14 @@
 ﻿using System;
 
 namespace Clss_Methods2
-{ 
-        public static Main(string[] args)
-    { 
-    
+{
 
-    public class MathOp       
+    static void Main(string[] args)
+    { 
+
+
+
+    public class MathOp
     {
         void Math(int addision)
         {
@@ -16,11 +18,14 @@ namespace Clss_Methods2
             int num2 = Convert.ToInt32(Console.ReadLine());
             int total = num1 + (num2) + 9;
             Console.WriteLine("your number(s) + 9 is: " + total);
-        Console.ReadLine();
+            Console.ReadLine();
         }
-
     }
+
 }
+
+
+
         
     
 
