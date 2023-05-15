@@ -1,24 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Class_Methods1
 {
     class Method2
     {
-        static void Main(string[] args)
-        {
-            void MathOps(decimal dif)
+        
+        
+            public void MathOps(decimal prct2)
             {
-                Console.WriteLine("Please enter any number: ");
-                decimal dec = Convert.ToInt32(Console.ReadLine());
-                int num = 2;
-                decimal difference = dec - num;
-                Console.WriteLine("Your number - two is " + difference);
-                Console.ReadLine();
+
+            Console.WriteLine("Please enter a decimal number: ");
+            decimal num2 = Convert.ToDecimal(Console.ReadLine());           
+                Console.WriteLine("Your number divided by two is " +  num2);
+                
             }
         }
     }
-}
+
 
 

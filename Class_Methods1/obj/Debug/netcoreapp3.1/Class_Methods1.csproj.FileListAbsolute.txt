@@ -2,3 +2,16 @@ C:\Users\tamar\source\repos\Class_Methods1\obj\Debug\netcoreapp3.1\Class_Methods
 C:\Users\tamar\source\repos\Class_Methods1\obj\Debug\netcoreapp3.1\Class_Methods1.AssemblyInfoInputs.cache
 C:\Users\tamar\source\repos\Class_Methods1\obj\Debug\netcoreapp3.1\Class_Methods1.AssemblyInfo.cs
 C:\Users\tamar\source\repos\Class_Methods1\obj\Debug\netcoreapp3.1\Class_Methods1.csproj.CoreCompileInputs.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Class_Methods1\bin\Debug\netcoreapp3.1\Class_Methods1.exe
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Class_Methods1\bin\Debug\netcoreapp3.1\Class_Methods1.deps.json
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Class_Methods1\bin\Debug\netcoreapp3.1\Class_Methods1.runtimeconfig.json
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Class_Methods1\bin\Debug\netcoreapp3.1\Class_Methods1.runtimeconfig.dev.json
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Class_Methods1\bin\Debug\netcoreapp3.1\Class_Methods1.dll
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Class_Methods1\bin\Debug\netcoreapp3.1\Class_Methods1.pdb
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Class_Methods1\obj\Debug\netcoreapp3.1\Class_Methods1.csproj.AssemblyReference.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Class_Methods1\obj\Debug\netcoreapp3.1\Class_Methods1.AssemblyInfoInputs.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Class_Methods1\obj\Debug\netcoreapp3.1\Class_Methods1.AssemblyInfo.cs
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Class_Methods1\obj\Debug\netcoreapp3.1\Class_Methods1.csproj.CoreCompileInputs.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Class_Methods1\obj\Debug\netcoreapp3.1\Class_Methods1.dll
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Class_Methods1\obj\Debug\netcoreapp3.1\Class_Methods1.pdb
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Class_Methods1\obj\Debug\netcoreapp3.1\Class_Methods1.genruntimeconfig.cache

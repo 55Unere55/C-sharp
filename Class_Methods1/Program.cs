@@ -6,14 +6,29 @@ namespace Class_Methods1
     {
         static void Main(string[] args)
         {
-            void MathOp(int dividend)
-            {
-                Console.WriteLine("Please enter any number: ");
-                int div = Convert.ToInt32(Console.ReadLine());
-                int quotient = div / 2;
-                Console.WriteLine("Your number divided by two is " + quotient);
+             
+            
+            
+                Method1 math1 = new Method1();
+                {
+                    Console.WriteLine("Please enter any number: ");
+                    int num1 = Convert.ToInt32(Console.ReadLine());
+                    math1.MathOps(num1);
+                    {                                                
+                    Console.WriteLine("Please enter a decimal: ");
+                    decimal num2 = Convert.ToDecimal(Console.ReadLine());
+                    math1.MathOps(decimal num2);
+                        {                                                              
+                            Console.WriteLine("Please enter a number like this: twentyone ");
+                            int num3 = Convert.ToInt32(Console.ReadLine());
+                            math1.MathOps(num3);
+
+                        }
+                            }
+}
+                     }
+                }
             }
 
-        }
-    }
-}
+        
+    
