@@ -17,7 +17,7 @@ namespace Class_Methods1
                     {                                                
                     Console.WriteLine("Please enter a decimal: ");
                     decimal num2 = Convert.ToDecimal(Console.ReadLine());
-                    math1.MathOps(decimal num2);
+                    math1.MathOps(num2);
                         {                                                              
                             Console.WriteLine("Please enter a number like this: twentyone ");
                             int num3 = Convert.ToInt32(Console.ReadLine());
