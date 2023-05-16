@@ -6,12 +6,14 @@ namespace BlackJack_21
 {
     public class Card
     {
-        public Card()
-        {      
-        public string Suit { get; set; }
-        public string Face { get; set; }
+          public Card()
+        {
+          public string Suit { get; set; }
+           public string Face { get; set; }
+        }
+      
          }
 
-    }
-}
+    
+
 

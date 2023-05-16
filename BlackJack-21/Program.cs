@@ -6,6 +6,9 @@ namespace BlackJack_21
     {
         static void Main(string[] args)
         {
+
+
+            Game game = new TwentyOneGame();
             Deck deck = new Deck();
             Deck.Shuffle(3);
             
