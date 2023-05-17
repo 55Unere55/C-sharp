@@ -17,9 +17,7 @@ namespace Class_Methods1
         }
         public void MathOps(decimal prct2)
         {
-            Console.WriteLine("Enter a decimal number: ");
-            decimal num2 = Convert.ToDecimal(Console.ReadLine());
-            decimal quotient = num2 / 2;
+            decimal quotient = prct2 / 2;
             Console.WriteLine("Your number divided by two is " + quotient);
         }
         public void MathOps(string prct3)
