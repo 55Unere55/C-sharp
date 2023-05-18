@@ -8,25 +8,27 @@ namespace BlackJack_21
         {
 
 
-            Game game = new TwentyOneGame();
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<Player>();
+            Player player = new Player();
+            player.Name = "Jesse";
+            game = game + player;
+            game += player;
+            game -= player;
+
+
             Deck deck = new Deck();
             Deck.Shuffle(3);
             
 
             foreach (Card cards in deck.Cards)
             {
-                Console.WriteLine(card.Face + " of " + card.Suit);
+                Console.WriteLine(cards.Face + " of " + cards.Suit);
             }
             Console.WriteLine(deck.Cards.Count);
             Console.ReadLine(); 
         }
-      //  public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1)
-       //     {
-        //        for (int i = 0; i < times; i++)
-        //        {
-        //            deck = Shuffle(deck);
-         //       }
-        //        return deck;
+     
             }
         }
     
