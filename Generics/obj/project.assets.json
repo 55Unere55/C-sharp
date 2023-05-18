@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tamar\\source\\repos\\Generics\\Generics.csproj",
+      "projectUniqueName": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Generics\\Generics.csproj",
       "projectName": "Generics",
-      "projectPath": "C:\\Users\\tamar\\source\\repos\\Generics\\Generics.csproj",
+      "projectPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Generics\\Generics.csproj",
       "packagesPath": "C:\\Users\\tamar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tamar\\source\\repos\\Generics\\obj\\",
+      "outputPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Generics\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

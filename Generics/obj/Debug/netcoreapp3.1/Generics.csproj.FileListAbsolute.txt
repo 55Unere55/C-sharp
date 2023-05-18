@@ -1,0 +1,13 @@
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Generics\bin\Debug\netcoreapp3.1\Generics.exe
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Generics\bin\Debug\netcoreapp3.1\Generics.deps.json
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Generics\bin\Debug\netcoreapp3.1\Generics.runtimeconfig.json
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Generics\bin\Debug\netcoreapp3.1\Generics.runtimeconfig.dev.json
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Generics\bin\Debug\netcoreapp3.1\Generics.dll
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Generics\bin\Debug\netcoreapp3.1\Generics.pdb
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Generics\obj\Debug\netcoreapp3.1\Generics.csproj.AssemblyReference.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Generics\obj\Debug\netcoreapp3.1\Generics.AssemblyInfoInputs.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Generics\obj\Debug\netcoreapp3.1\Generics.AssemblyInfo.cs
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Generics\obj\Debug\netcoreapp3.1\Generics.csproj.CoreCompileInputs.cache
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Generics\obj\Debug\netcoreapp3.1\Generics.dll
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Generics\obj\Debug\netcoreapp3.1\Generics.pdb
+C:\Users\tamar\OneDrive\Desktop\GitHub\C-sharp\C-sharp\Generics\obj\Debug\netcoreapp3.1\Generics.genruntimeconfig.cache

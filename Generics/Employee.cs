@@ -4,16 +4,19 @@ using System.Text;
 
 namespace Generics
 {
-    public class Employee
+    public class Employee<T>
     {
-        public List<string> things { get; set; }
-        public List<int> Things { get; set; }
 
-        things = new List<string> things();
-            List<string> things = new List<string>() { "Coffecup", "Pencil", "Keyboard", "Paper" };
-        List<int> Things = new List<int>() { 3, 45, 90, 67, 5, 20 };
-                   things.Add(string things)
-                   Things.Add(int Things);
-                }
+        // define a variable of type T 
+        public T data;
+
+        // define a constructor of Employee class 
+        public Employee(T data)
+        {
+            this.data = data;
+            Console.WriteLine("Passed on: " + this.data);
+        }
+    }
 }
+
         
