@@ -6,16 +6,12 @@ namespace BlackJack_21
     {
         static void Main(string[] args)
         {
+            Card card1 = new Card();
+            Card card2 = card1;
+            card1.Face = Face.Eight;
+            card2.Face = Face.King;
 
-
-            TwentyOneGame game = new TwentyOneGame();
-            game.Players = new List<Player>();
-            Player player = new Player();
-            player.Name = "Jesse";
-            game = game + player;
-            game += player;
-            game -= player;
-
+            Console.WriteLine(card1.Face);
 
             Deck deck = new Deck();
             Deck.Shuffle(3);
