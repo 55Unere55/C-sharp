@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BlackJack_21
 {
-    public class TwentyOneGame : Game, IWalkAway
+    public class TwentyOneGame : Game, IWalkAway, IQuittable,
     {
         public override void Play()
         {
