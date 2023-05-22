@@ -8,7 +8,7 @@ namespace Methods
     {
         public int AddTwoNumbers()
         {
-            int num = 34;
+            int num1 = 34;
             return num1 + num2;
         }
         public int MultiplyTwoNumbers()
