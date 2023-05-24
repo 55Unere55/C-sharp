@@ -12,8 +12,8 @@ namespace BlackJack_21
 
         public void Deal(List<Card> Hand)
         {
-            Hand.Add(Deck, Card.First());
-            Console.WriteLine(Deck.Cards.First().ToString() + "\n");
+            Hand.Add(Deck, Cards.First());
+            Console.WriteLine(Deck.Cards.First().ToString() +"\n");
             Deck.Cards.RemoveAt(0);
         }
 

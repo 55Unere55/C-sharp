@@ -10,15 +10,15 @@ namespace BlackJack_21
         {
             Cards = new List<Card>();
 
-            for (int i = 0; i = < 13; i++)
+            for (int i = 0; i < 13; i++)
             {
-                for (int j = 0; j = < 4; j++)
+                for (int j = 0; j < 4; j++)
                 {
                     Card card = new Card();
                     card.Face = (Face)i;
                     card.Suit = (Suit)j;
-                    Cards.Add(card)
-                }
+                    Cards.Add(card);
+                
 
             }
 
@@ -26,7 +26,7 @@ namespace BlackJack_21
         }
         public List<Card> Cards { get; set; }
 
-        public void Shuffle(Deck deck, int times = 1)
+        public void Shuffle(int times = 1)
         {
             
             for (int i = 0; i < times; i++)
