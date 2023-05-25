@@ -65,6 +65,98 @@ namespace BlackJack_21
                     }
                 }
             }
+            foreach (Player player in Players)
+            {
+                while (!player.Stay)
+                {
+                    Console.WriteLine("Your Cards are: ");
+                    foreach (Card card in Player.Hand)
+                    {
+                        Console.Write("{0} ", card.ToString());
+                    }
+                    Console.WriteLine("\n\nHit or Stay? ");
+                    string answer = Console.ReadLine().ToLower();
+                    if (answer == Stay)
+                    {
+                        player.Stay = true;
+                        break;
+                    }
+                    else if (answer == "hit")                 
+                    {
+                        Dealer.Deal(player.Hand);
+                    }
+                    bool busted = TwentyOneRules.isBusted(player.Hand);
+                    if (busted)
+                    {
+                        Console.WriteLine("{0} busted! You lose yor Bet of {1}. Your new Balance is {2}.", player.Name, Bets[player], player.Balance);
+                        Console.WriteLine("Do you want to play again? ");
+                        answer = Console.ReadLine().ToLower();
+                        if (answer == "yes" || answer == "yeah")
+                        {
+                            player.isActivelyPlaying = true;
+                        }
+                        else
+                        {
+                            player.isActivelyPlaying = false;
+                        }
+                    }
+                }
+            }
+            Dealer.isBusted = TwentyOneRules.isBusted(Dealer.Hand);
+            Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
+            while (!Dealer.Stay && Dealer.isBusted)
+            {
+                Console.WriteLine("Dealer is hitting... ");
+                Dealer.Deal(Dealer.Hand);
+                Dealer.isBusted = TwentyOneRules.isBusted(Dealer.Hand);
+                Dealer.Stay = TwentyOneRules.ShouldDealerStay(Dealer.Hand);
+            }
+            if (Dealer.Stay)
+            {
+                Console.WriteLine("Dealer is staying.");
+            }
+            if (Dealer.isBusted)
+            {
+                Console.WriteLine("Dealer Busted! ");
+                foreach(KeyValuePair<Player, int> entry in Bets)
+                {
+                    Console.WriteLine("{0} won {1}", entry.Key.Name, entry.Value);
+                    Players.Where(x => x.Name == entry.Key.Name).First().Balance += (entry.Value * 2);
+                    Dealer.Balance -= entry.Value;
+                }
+                return;
+                }
+            foreach (Player player in Players)
+            {
+                bool? playerWon = TwentyOneRules.CompareHands(player.Hand, Dealer.Hand);
+                if(playerWon == null)
+                {
+                    Console.WriteLine("Push! No one Wins! ");
+                    player.Balance = += Bets[player];
+                }
+                else if (playerWon == true)
+                {
+                    Console.WriteLine("{0} won {1}!", player.Name, Bets[player]);
+                    player.Balance += (Bets[player] * 2);
+                    Dealer.Balance -= (Bets[player]);
+                }
+                else
+                {
+                    Console.WriteLine("Dealer wins {0}!", Bets[player]);
+                    Dealer.Balance += Bets[player];
+                }
+                Console.WriteLine("Dou you want to play again? ");
+                string answer = Console.ReadLine().ToLower();
+                if(answer == "yes" || answer == "yeah")
+                {
+                    player.isActivelyPlaying = true;
+                }
+                else
+                {
+                    player.isActivelyPlaying = false;
+                }
+            }
+            
         }
         public override void ListPlayers()
         {
