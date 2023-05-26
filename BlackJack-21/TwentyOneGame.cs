@@ -18,6 +18,7 @@ namespace BlackJack_21
             Dealer.Hand = new List<Card>();
             Dealer.Stay = false;
             Dealer.Deck = new Deck();
+            Dealer.Deck.Shuffle();
             Console.WriteLine("Place your bet! ");
 
             foreach (Player player in Players)
@@ -34,7 +35,7 @@ namespace BlackJack_21
             for(int  i = 0, i < 2, i++)
             {
                 Console.WriteLine("Dealing...");
-                foreach (Player in Players)
+                foreach (Player player in Players)
                 {
                     Console.Write("{0}: ", player.Name);
                     Dealer.Deal(player.Hand);
@@ -44,7 +45,7 @@ namespace BlackJack_21
                         if (blackJack)
                         {
                             Console.WriteLine("BlackJack! {0} wins {1}", player.Name, Bets[player]);
-                            player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player);
+                            player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player]);
                             return;
                         }
 
@@ -62,6 +63,7 @@ namespace BlackJack_21
                         {
                             Dealer.Balance += entry.Value;
                         }
+                        return;
                     }
                 }
             }
@@ -94,10 +96,12 @@ namespace BlackJack_21
                         if (answer == "yes" || answer == "yeah")
                         {
                             player.isActivelyPlaying = true;
+                            return;
                         }
                         else
                         {
                             player.isActivelyPlaying = false;
+                            return;
                         }
                     }
                 }
