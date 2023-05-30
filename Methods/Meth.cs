@@ -16,7 +16,7 @@ namespace Methods
         public int MultiplyTwoNumbers(int num4)
         {
           
-            int num3 = 13;
+            int num3 = 50;
             int product = num3 * num4;
             return num3 * num4;
 
@@ -24,7 +24,7 @@ namespace Methods
         public int SubstractTwoNumbers(int num6)
         {
             
-            int num5 = 50;
+            int num5 = 13;
             int difference = num5 - num6;
             return num5 - num6;
 

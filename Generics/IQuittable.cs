@@ -10,8 +10,8 @@ namespace Generics
     }
     public void IQuit(Employee<string>)
     {
-      Employee<String> IQuit = new Employee<string>()
-      {
+        Employee<String> IQuit = new Employee<string>()
+        { };
           if (!isworking == false)
         {
             IQuit.Employee.Remove(employee);
