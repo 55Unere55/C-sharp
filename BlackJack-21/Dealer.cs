@@ -13,7 +13,12 @@ namespace BlackJack_21
         public void Deal(List<Card> Hand)
         {
             Hand.Add(Deck, Cards.First());
-            Console.WriteLine(Deck.Cards.First().ToString() +"\n");
+            string card = string.Format(Deck.Cards.First().ToString() + "\n");
+            Console.WriteLine(card);
+            using (StreamWriter file = new StreamWriter(@"C\Users\tamar\Logs\log.txt", true))
+            {
+                file.WrriteLine(card);
+            }
             Deck.Cards.RemoveAt(0);
         }
 
