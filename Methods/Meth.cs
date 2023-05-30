@@ -6,27 +6,24 @@ namespace Methods
 {
    public class Meth
     {
-        public int AddTwoNumbers()
+        public int AddTwoNumbers( int num2)
         {
-            Console.WriteLine("Please enter your first Number: ");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            
             int num1 = 34;
             int total = num1 + num2;
             return num1 + num2;
         }
-        public int MultiplyTwoNumbers()
+        public int MultiplyTwoNumbers(int num4)
         {
-            Console.WriteLine("Please enter a second Number: ");
-            int num4 = Convert.ToInt32(Console.ReadLine());
+          
             int num3 = 13;
             int product = num3 * num4;
             return num3 * num4;
 
         }
-        public int SubstractTwoNumbers()
+        public int SubstractTwoNumbers(int num6)
         {
-            Console.WriteLine("Please give one last Number in: ");
-            int num6 = Convert.ToInt32(Console.ReadLine());
+            
             int num5 = 50;
             int difference = num5 - num6;
             return num5 - num6;

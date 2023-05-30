@@ -17,6 +17,7 @@ namespace BlackJack_21
             Console.WriteLine(card);
             using (StreamWriter file = new StreamWriter(@"C\Users\tamar\Logs\log.txt", true))
             {
+                file.WriteLine(DateTime.Now);
                 file.WrriteLine(card);
             }
             Deck.Cards.RemoveAt(0);
