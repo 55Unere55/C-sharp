@@ -32,7 +32,7 @@ namespace BlackJack_21
                 Bets[player] = bet;
             }
 
-            for(int  i = 0, i < 2, i++)
+            for (int i = 0, i < 2, i++) 
             {
                 Console.WriteLine("Dealing...");
                 foreach (Player player in Players)

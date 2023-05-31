@@ -6,14 +6,14 @@ namespace Methods
 {
    public class Meth
     {
-        public int AddTwoNumbers(int num2)
+        public void AddTwoNumbers(int num2)
         {
             
             int num1 = 34;
             int total = num1 + num2;
             Console.WriteLine(total);
         }
-        public int MultiplyTwoNumbers(int num4)
+        public void MultiplyTwoNumbers(int num4)
         {
           
             int num3 = 50;
@@ -21,7 +21,7 @@ namespace Methods
             Console.WriteLine(product);
 
         }
-        public int SubstractTwoNumbers(int num6)
+        public void SubstractTwoNumbers(int num6)
         {
             
             int num5 = 13;
