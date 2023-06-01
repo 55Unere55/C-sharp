@@ -18,37 +18,50 @@ namespace BlackJack_21
             Dealer.Hand = new List<Card>();
             Dealer.Stay = false;
             Dealer.Deck = new Deck();
-            Dealer.Deck.Shuffle();
-            Console.WriteLine("Place your bet! ");
+            Dealer.Deck.Shuffle();           
 
             foreach (Player player in Players)
             {
-                int bet = Convert.ToInt32(Console.ReadLine());
-                bool succesfullyBet = player.Bet(bet);
+                bool validAnswer = false;
+                int bet = 0;
+                while (!validAnswer) 
+                {                 
+                Console.WriteLine("Place yor bet.")
+                validAnswer  = int.TryParse((Console.ReadLine(), out bet);
+                    if (!validAnswer) Console.WriteLine("Please enter Digits only!");
+                {
+                        
+                    if(bet < 0)
+                    {
+                        throw new FraudException("Security kick this person out!");
+                    }
+                   bool succesfullyBet = player.Bet(bet);
                 if (!succesfullyBet)
                 {
                     return;
                 }
                 Bets[player] = bet;
-            }
+
+                }
 
             for (int i = 0, i < 2, i++) 
             {
                 Console.WriteLine("Dealing...");
-                foreach (Player player in Players)
-                {
-                    Console.Write("{0}: ", player.Name);
-                    Dealer.Deal(player.Hand);
-                    if (i == 1)
-                    {
-                        bool BlackJack = TwentyOneRules.CheckForBlackJack(player.Hand);
-                        if (blackJack)
+                        foreach (Player player in Players)
                         {
-                            Console.WriteLine("BlackJack! {0} wins {1}", player.Name, Bets[player]);
-                            player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player]);
-                            return;
+                            Console.Write("{0}: ", player.Name);
+                            Dealer.Deal(player.Hand);
+                            if (i == 1)
+                            {
+                                bool BlackJack = TwentyOneRules.CheckForBlackJack(player.Hand);
+                                if (BlackJack)
+                                {
+                                    Console.WriteLine("BlackJack! {0} wins {1}", player.Name, Bets[player]);
+                                    player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player]);
+                                    return;
+                                }
+                            }
                         }
-
                     }
                 }
                 Console.Write("Dealer: ");
@@ -72,7 +85,7 @@ namespace BlackJack_21
                 while (!player.Stay)
                 {
                     Console.WriteLine("Your Cards are: ");
-                    foreach (Card card in Player.Hand)
+                    foreach (Card card in player.Hand)
                     {
                         Console.Write("{0} ", card.ToString());
                     }
@@ -136,7 +149,7 @@ namespace BlackJack_21
                 if(playerWon == null)
                 {
                     Console.WriteLine("Push! No one Wins! ");
-                    player.Balance = += Bets[player];
+                    player.Balance  += Bets[player];
                 }
                 else if (playerWon == true)
                 {

@@ -50,7 +50,7 @@ namespace BlackJack_21
                     }
                     catch (FraudException ex)
                     {
-                        Console.WriteLine("Security! Kick this Person out!");
+                        Console.WriteLine(ex.Message);
                         UpdateDbWithException(ex);
                         Console.ReadLine();
                         return;
@@ -93,6 +93,34 @@ namespace BlackJack_21
                 connection.Close();
 
             }
+        }
+        private static List<ExceptionEntity> ReadException()
+        {
+            string connectionString = @"Data Source = (localdb)\MSSQLLocalDB; Initial Catalog = TwentyOneGame; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False;";
+
+            string queryString = @"Select Id, ExceptionType, ExceptionMessage, TimeStamp From Exceptions";
+
+            List<ExceptionEntity> Exceptions = new List<ExceptionEntity>();
+
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(queryString, connection);
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    ExceptionEntity exception = ExceptionEntity();
+                    exception.Id = Convert.ToInt32(reader["Id"]);
+                    exception.ExceptionType = reader["ExceptionType"].ToString();
+                    exception.ExceptionMessage = reader["ExceptionMessage"].ToString();
+                    exception.TimeStamp = Convert.ToDateTime(reader["TimeStamp"]);
+                    Exceptions.Add(exception);
+                }
+                connection.Close();
+            }
+            return Exceptions;
         }
     }
 }
