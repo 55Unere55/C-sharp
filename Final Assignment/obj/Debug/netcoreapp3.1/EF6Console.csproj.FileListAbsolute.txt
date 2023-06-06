@@ -1,0 +1,4 @@
+C:\Users\tamar\source\repos\Final Assignment\obj\Debug\netcoreapp3.1\EF6Console.csproj.AssemblyReference.cache
+C:\Users\tamar\source\repos\Final Assignment\obj\Debug\netcoreapp3.1\EF6Console.AssemblyInfoInputs.cache
+C:\Users\tamar\source\repos\Final Assignment\obj\Debug\netcoreapp3.1\EF6Console.AssemblyInfo.cs
+C:\Users\tamar\source\repos\Final Assignment\obj\Debug\netcoreapp3.1\EF6Console.csproj.CoreCompileInputs.cache
