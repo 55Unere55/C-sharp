@@ -50,6 +50,62 @@ namespace CarInsurance1.Controllers
         {
             if (ModelState.IsValid)
             {
+                public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Table table)
+            {
+                // Start with a base quote of $50 / month
+                int quote = 50;
+            if (Insuree < 18)
+            {
+                int quote += 100;
+                
+
+                if (Insuree > 19 || < 25)
+                {
+                    int quote += 50;
+                    
+
+                    if (Insuree > 25)
+                    {
+                        int quote += 25;
+                        
+
+                        if (CarYear < 2000)
+                        {
+                            int quote += 25;
+
+                                    if(CarYear > 2015)
+                                    {
+                                        int quote += 25;
+
+                                        if(CarMake == "Porsche")
+                                        {
+                                            int quote += 25;
+                                        
+                                        if (CarMake == "Porsche" && CarModel == "911Carrera")
+                                        {
+                                            int quote += 25;
+
+                                            if(Speeding Tickets 
+
+
+                                                        if(DUI true)
+                                                        {
+                                                         int quote += 25 %;
+
+                    if (FullCoverage)
+                    {
+                        int quote += 50 %;
+                    }
+                }
+
+                }
+                                                
+
+                }
+
+                                        }
+                                    }
+                        }
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -57,6 +113,12 @@ namespace CarInsurance1.Controllers
 
             return View(insuree);
         }
+       
+                    }
+
+                }
+            }
+            }
 
         // GET: Insuree/Edit/5
         public ActionResult Edit(int? id)

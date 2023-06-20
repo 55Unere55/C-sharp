@@ -10,6 +10,7 @@ namespace CarInsurance1.Controllers
     {
         public ActionResult Index()
         {
+
             return View();
         }
 
