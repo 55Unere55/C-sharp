@@ -250,6 +250,7 @@
     <Content Include="Views\Insuree\Details.cshtml" />
     <Content Include="Views\Insuree\Edit.cshtml" />
     <Content Include="Views\Insuree\Index.cshtml" />
+    <Content Include="Views\AdminSiteAdministrator.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
