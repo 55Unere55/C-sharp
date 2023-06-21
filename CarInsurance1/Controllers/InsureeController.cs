@@ -50,54 +50,55 @@ namespace CarInsurance1.Controllers
         {
             if (ModelState.IsValid)
             {
-                public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Table table)
-            {
+          
                 // Start with a base quote of $50 / month
                 int quote = 50;
-            if (Insuree < 18)
+                int age = DateTime.Now.Year - insuree.DateOfBirth.Year;
+            if (age < 18)
             {
-                int quote += 100;
-                
+                 quote += 100;
 
-                if (Insuree > 19 || < 25)
+                    int age1 = DateTime.Now.Year - insuree.DateOfBirth.Year;
+                    if (age > 19 || < 25)
                 {
-                    int quote += 50;
-                    
+                     quote += 50;
 
-                    if (Insuree > 25)
+                        int age2 = DateTime.Now.Year - insuree.DateOfBirth.Year;
+                        if (age > 25)
                     {
-                        int quote += 25;
+                         quote += 25;
                         
 
-                        if (CarYear < 2000)
+                        if (insuree.CarYear < 2000)
                         {
-                            int quote += 25;
+                             quote += 25;
 
-                                    if(CarYear > 2015)
+                                    if(insuree.CarYear > 2015)
                                     {
-                                        int quote += 25;
+                                         quote += 25;
 
-                                        if(CarMake == "Porsche")
+                                        if(insuree.CarMake == "Porsche")
                                         {
-                                            int quote += 25;
+                                             quote += 25;
                                         
-                                        if (CarMake == "Porsche" && CarModel == "911Carrera")
+                                        if (insuree.CarMake == "Porsche" && insuree.CarModel == "911Carrera")
                                         {
-                                            int quote += 25;
+                                             quote += 25;
 
-                                            if(SpeedingTickets > 0)
+                                            if(insuree.SpeedingTickets > 0)
                                                 {
-                                                    int quote += Insuree.SpeedingTickets * 10;
+                                                    quote += insuree.SpeedingTickets * 10;
                                                 }
 
 
-                                                        if(DUI true)
+                                                        if(insuree.DUI = )
                                                         {
-                                                         int quote += 25 %;
+                                                          quote += 25 %;
 
-                    if (FullCoverage)
+                    if (insuree.CoverageType.FullCoverage)
                     {
-                        int quote += 50 %;
+                         quote += 50 %;
+                            
                     }
                 }
 
