@@ -59,7 +59,7 @@ namespace CarInsurance1.Controllers
                  quote += 100;
 
                     int age1 = DateTime.Now.Year - insuree.DateOfBirth.Year;
-                    if (age > 19 || < 25)
+                    if (age >= 19 && age <= 25)
                 {
                      quote += 50;
 
