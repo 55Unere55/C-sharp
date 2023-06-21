@@ -85,7 +85,10 @@ namespace CarInsurance1.Controllers
                                         {
                                             int quote += 25;
 
-                                            if(Speeding Tickets 
+                                            if(SpeedingTickets > 0)
+                                                {
+                                                    int quote += Insuree.SpeedingTickets * 10;
+                                                }
 
 
                                                         if(DUI true)
