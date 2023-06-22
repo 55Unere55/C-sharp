@@ -100,15 +100,12 @@ namespace CarInsurance1.Controllers
                         quote *= 1.25;
                     }
                     //check for full Coverage
-                    if (insuree.CoverageType.FullCoverage)
+                    if (insuree.CoverageType == true)
                     {
-                        bool FullCoverage = true;
+                        
                         quote *= 1.50;
                     }
-                    else (!insuree.CoverageType.FullCoverage;)
-                        {
-                        bool FullCoverage = false;
-                        }
+                   
                  
             
                 }
