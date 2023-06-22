@@ -58,66 +58,70 @@ namespace CarInsurance1.Controllers
                 {
                     quote += 100;
 
-
+                    //if insuree is between 19 - 25
                     if (age >= 19 && age <= 25)
                     {
                         quote += 50;
 
                     }
+                    //if insuree is 25 or over 
                     if (age > 25)
                     {
                         quote += 25;
                     }
-
+                    //if CarYear is older then 2000
                     if (insuree.CarYear < 2000)
                     {
                         quote += 25;
                     }
+                    //if CarYear is younger then 2015
                     if (insuree.CarYear > 2015)
                     {
                         quote += 25;
                     }
+                    //if Car Make is a Porsche 
                     if (insuree.CarMake == "Porsche")
                     {
                         quote += 25;
                     }
+                    //if Car is a Porsche - 911Carrera
                     if (insuree.CarMake == "Porsche" && insuree.CarModel == "911Carrera")
                     {
                         quote += 25;
                     }
+                    //if there are Speeding Tickets
                     if (insuree.SpeedingTickets > 0)
                     {
                         quote += insuree.SpeedingTickets * 10;
                     }
-
-
+                    //if any DUI on Hand
                     if (insuree.DUI == true)
                     {
                         quote *= 1.25;
                     }
-
+                    //check for full Coverage
                     if (insuree.CoverageType.FullCoverage)
                     {
                         bool FullCoverage = true;
                         quote *= 1.50;
                     }
-                    else !insuree.CoverageType.FullCoverage;
+                    else (!insuree.CoverageType.FullCoverage;)
                         {
                         bool FullCoverage = false;
                         }
                  
             
                 }
-                                                
-
-                 }                                                                                               
-                db.Insurees.Add(insuree);
+                     db.Insurees.Add(insuree);
                 db.SaveChanges();
-                return RedirectToAction("Index");
-            }
+                return RedirectToAction("Index");                            
 
-            return View(insuree);
-        }
+                }                                                                                               
+                return View(insuree);
+                }
+
+           
+            
        
 
         // GET: Insuree/Edit/5
