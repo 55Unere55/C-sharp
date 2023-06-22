@@ -1,4 +1,5 @@
 ﻿using System;
+using static Final_Assignment.Students;
 
 namespace Final_Assignment
 {
@@ -6,24 +7,18 @@ namespace Final_Assignment
     {
         static void Main(string[] args)
         {
-
-             internal class Programs
-        {
-            private static void Main(string[] args)
+           using (var ctx = new SchoolContext())
             {
-                using (var ctx = new SchoolContext())
-                {
-                    var student = new Student() { StudentName = "Bill" };
+                var stud = new Student() { StudentName = "Bill" };
 
-                    ctx.Students.Add(student);
-                    ctx.SaveChanges();
-                }
-                Console.WriteLine("Demo completed.");
-                Console.ReadLine();
+                ctx.Students.Add(stud);
+                ctx.SaveChanges();
+            }
+             
             }
         }
     }
-}
+
     
 
 
