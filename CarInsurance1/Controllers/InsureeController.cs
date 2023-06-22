@@ -52,52 +52,52 @@ namespace CarInsurance1.Controllers
             {
           
                 // Start with a base quote of $50 / month
-                int quote = 50;
+                double quote = 50;
                 int age = DateTime.Now.Year - insuree.DateOfBirth.Year;
             if (age < 18)
             {
                  quote += 100;
 
-                    int age1 = DateTime.Now.Year - insuree.DateOfBirth.Year;
+
                     if (age >= 19 && age <= 25)
-                {
-                     quote += 50;
-
-                        int age2 = DateTime.Now.Year - insuree.DateOfBirth.Year;
-                        if (age > 25)
                     {
-                         quote += 25;
-                        
+                        quote += 50;
 
-                        if (insuree.CarYear < 2000)
+                    }
+                        if (age > 25)
                         {
-                             quote += 25;
+                            quote += 25;
+                        }
 
-                                    if(insuree.CarYear > 2015)
-                                    {
-                                         quote += 25;
-
-                                        if(insuree.CarMake == "Porsche")
-                                        {
-                                             quote += 25;
-                                        
-                                        if (insuree.CarMake == "Porsche" && insuree.CarModel == "911Carrera")
-                                        {
-                                             quote += 25;
-
+                            if (insuree.CarYear < 2000)
+                            {
+                                quote += 25;
+                            }
+                    if (insuree.CarYear > 2015)
+                    {
+                        quote += 25;
+                    }
+                    if (insuree.CarMake == "Porsche")
+                    {
+                        quote += 25;
+                    }
+                    if (insuree.CarMake == "Porsche" && insuree.CarModel == "911Carrera")
+                    {
+                        quote += 25;
+                    }
                                             if(insuree.SpeedingTickets > 0)
                                                 {
                                                     quote += insuree.SpeedingTickets * 10;
                                                 }
 
 
-                                                        if(insuree.DUI = )
-                                                        {
-                                                          quote += 25 %;
-
+                    if (insuree.DUI == true)
+                    {
+                        quote += 1.25;
+                    }
                     if (insuree.CoverageType.FullCoverage)
                     {
-                         quote += 50 %;
+                         quote += 2.50;
                             
                     }
                 }
@@ -105,11 +105,7 @@ namespace CarInsurance1.Controllers
                 }
                                                 
 
-                }
-
-                                        }
-                                    }
-                        }
+                }                                                                                               
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
