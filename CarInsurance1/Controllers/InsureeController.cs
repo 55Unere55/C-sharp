@@ -54,9 +54,9 @@ namespace CarInsurance1.Controllers
                 // Start with a base quote of $50 / month
                 double quote = 50;
                 int age = DateTime.Now.Year - insuree.DateOfBirth.Year;
-            if (age < 18)
-            {
-                 quote += 100;
+                if (age < 18)
+                {
+                    quote += 100;
 
 
                     if (age >= 19 && age <= 25)
@@ -64,15 +64,15 @@ namespace CarInsurance1.Controllers
                         quote += 50;
 
                     }
-                        if (age > 25)
-                        {
-                            quote += 25;
-                        }
+                    if (age > 25)
+                    {
+                        quote += 25;
+                    }
 
-                            if (insuree.CarYear < 2000)
-                            {
-                                quote += 25;
-                            }
+                    if (insuree.CarYear < 2000)
+                    {
+                        quote += 25;
+                    }
                     if (insuree.CarYear > 2015)
                     {
                         quote += 25;
@@ -85,27 +85,32 @@ namespace CarInsurance1.Controllers
                     {
                         quote += 25;
                     }
-                                            if(insuree.SpeedingTickets > 0)
-                                                {
-                                                    quote += insuree.SpeedingTickets * 10;
-                                                }
+                    if (insuree.SpeedingTickets > 0)
+                    {
+                        quote += insuree.SpeedingTickets * 10;
+                    }
 
 
                     if (insuree.DUI == true)
                     {
-                        quote += 1.25;
+                        quote *= 1.25;
                     }
+
                     if (insuree.CoverageType.FullCoverage)
                     {
-                         quote += 2.50;
-                            
+                        bool FullCoverage = true;
+                        quote *= 1.50;
                     }
-                }
-
+                    else !insuree.CoverageType.FullCoverage;
+                        {
+                        bool FullCoverage = false;
+                        }
+                 
+            
                 }
                                                 
 
-                }                                                                                               
+                 }                                                                                               
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -114,11 +119,6 @@ namespace CarInsurance1.Controllers
             return View(insuree);
         }
        
-                    }
-
-                }
-            }
-            }
 
         // GET: Insuree/Edit/5
         public ActionResult Edit(int? id)
@@ -134,6 +134,7 @@ namespace CarInsurance1.Controllers
             }
             return View(insuree);
         }
+
 
         // POST: Insuree/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
