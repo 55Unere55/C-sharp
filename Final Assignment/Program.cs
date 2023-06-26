@@ -13,6 +13,8 @@ namespace Final_Assignment
 
                 ctx.Students.Add(stud);
                 ctx.SaveChanges();
+
+                Console.WriteLine("Student saved succesfully!");
             }
              
             }

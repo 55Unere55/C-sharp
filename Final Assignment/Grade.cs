@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using static Final_Assignment.Students;
 
 namespace Final_Assignment
 {
