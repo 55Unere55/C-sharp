@@ -59,9 +59,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\EF6Console.csproj",
-      "projectName": "EF6Console",
-      "projectPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\EF6Console.csproj",
+      "projectUniqueName": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\Final_Assignment.csproj",
+      "projectName": "Final_Assignment",
+      "projectPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\Final_Assignment.csproj",
       "packagesPath": "C:\\Users\\tamar\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\obj\\",
       "projectStyle": "PackageReference",

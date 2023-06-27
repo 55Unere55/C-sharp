@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WvMYbAkrCcn8tPRL3/QYLqAEqDJLRBi+jo7Gx2LvyozwtZ3XoIFfFlka2+PamwYUatdh2RsVYwlqZOCrq9Sb7A==",
+  "dgSpecHash": "PuQSGsPqtUryQ4TkuNW9sVxfs9QbBENyPdB5j4l5GAif8k2vAcZ/clEjIsv6SAmSBEMlPtoLwBm5AtIYCj3cRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\EF6Console.csproj",
+  "projectFilePath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\Final_Assignment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tamar\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512"
   ],

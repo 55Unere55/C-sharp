@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\Final Assignment.csproj": {}
+    "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\Final_Assignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\Final Assignment.csproj": {
+    "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\Final_Assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\Final Assignment.csproj",
-        "projectName": "Final Assignment",
-        "projectPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\Final Assignment.csproj",
+        "projectUniqueName": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\Final_Assignment.csproj",
+        "projectName": "Final_Assignment",
+        "projectPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\Final_Assignment.csproj",
         "packagesPath": "C:\\Users\\tamar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final Assignment\\obj\\",
         "projectStyle": "PackageReference",
