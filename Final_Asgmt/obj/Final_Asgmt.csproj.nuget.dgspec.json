@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tamar\\source\\repos\\Final_Asgmt\\Final_Asgmt.csproj": {}
+    "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final_Asgmt\\Final_Asgmt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tamar\\source\\repos\\Final_Asgmt\\Final_Asgmt.csproj": {
+    "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final_Asgmt\\Final_Asgmt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tamar\\source\\repos\\Final_Asgmt\\Final_Asgmt.csproj",
+        "projectUniqueName": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final_Asgmt\\Final_Asgmt.csproj",
         "projectName": "Final_Asgmt",
-        "projectPath": "C:\\Users\\tamar\\source\\repos\\Final_Asgmt\\Final_Asgmt.csproj",
+        "projectPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final_Asgmt\\Final_Asgmt.csproj",
         "packagesPath": "C:\\Users\\tamar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tamar\\source\\repos\\Final_Asgmt\\obj\\",
+        "outputPath": "C:\\Users\\tamar\\OneDrive\\Desktop\\GitHub\\C-sharp\\C-sharp\\Final_Asgmt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,7 +46,7 @@
           "dependencies": {
             "EntityFramework": {
               "target": "Package",
-              "version": "[6.2.0, )"
+              "version": "[6.4.4, )"
             }
           },
           "imports": [

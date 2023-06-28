@@ -4,8 +4,7 @@ using System.Text;
 
 namespace Final_Asgmt
 {
-    class Student
-    {
+    
         public class Student
         {
             public int StudentID { get; set; }
@@ -18,4 +17,4 @@ namespace Final_Asgmt
             public Grade Grade { get; set; }
         }
     }
-}
+

@@ -1,27 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Text;
 
+
 namespace Final_Asgmt
-{
-    class SchoolContext
     {
-        namespace EF6Console
-    {
-        class Program
+        public class SchoolContext : DbContext
         {
-            static void Main(string[] args)
+            public SchoolContext() : base()
             {
 
-                using (var ctx = new SchoolContext())
-                {
-                    var stud = new Student() { StudentName = "Bill" };
-
-                    ctx.Students.Add(stud);
-                    ctx.SaveChanges();
-                }
             }
+
+            public DbSet<Student> Students { get; set; }
+            public DbSet<Grade> Grades { get; set; }
         }
+
     }
-}
-}
+
+
+        
+    
+
+
