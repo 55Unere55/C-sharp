@@ -12,8 +12,10 @@ namespace Final_Asgmt
 
                 ctx.Students.Add(stud);
                 ctx.SaveChanges();
-            }
-            Console.WriteLine(stud.StudentName + " was added to the database.");
+                
+                Console.WriteLine(stud.StudentName + " was added to the database.");
         }
+            }
+          
     }
 }
